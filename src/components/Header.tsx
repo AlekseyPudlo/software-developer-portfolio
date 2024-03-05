@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 export default function Header() {
@@ -5,7 +6,7 @@ export default function Header() {
     <header className="bg-darkPrimary text-lightPrimary ...">
       <div>
         <h1 className="text-4xl font-bold ...">
-          <a href="/">Oleksii Pudlo</a>
+          <Link href="/">Oleksii Pudlo</Link>
         </h1>
         <h2 className="mt-3 text-lg ...">Your Position</h2>
         <p className="mt-4 ...">Your Professional Tagline</p>
